@@ -13,6 +13,8 @@
 		51891F7D248119F300B0AF0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51891F7B248119F300B0AF0C /* Main.storyboard */; };
 		51891F7F248119F700B0AF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51891F7E248119F700B0AF0C /* Assets.xcassets */; };
 		51891F82248119F700B0AF0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51891F80248119F700B0AF0C /* LaunchScreen.storyboard */; };
+		51891F8B2481559B00B0AF0C /* CAExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51891F8A2481559B00B0AF0C /* CAExtensions.swift */; };
+		51891F8D248155BE00B0AF0C /* UI + Color Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51891F8C248155BE00B0AF0C /* UI + Color Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		51891F7E248119F700B0AF0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51891F81248119F700B0AF0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51891F83248119F700B0AF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51891F8A2481559B00B0AF0C /* CAExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAExtensions.swift; sourceTree = "<group>"; };
+		51891F8C248155BE00B0AF0C /* UI + Color Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI + Color Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		51891F74248119F300B0AF0C /* Stopwatch-Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				51891F892481558600B0AF0C /* Extensions */,
 				51891F75248119F300B0AF0C /* AppDelegate.swift */,
 				51891F77248119F300B0AF0C /* SceneDelegate.swift */,
 				51891F79248119F300B0AF0C /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				51891F83248119F700B0AF0C /* Info.plist */,
 			);
 			path = "Stopwatch-Tutorial";
+			sourceTree = "<group>";
+		};
+		51891F892481558600B0AF0C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				51891F8C248155BE00B0AF0C /* UI + Color Extensions.swift */,
+				51891F8A2481559B00B0AF0C /* CAExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				51891F7A248119F300B0AF0C /* ViewController.swift in Sources */,
+				51891F8D248155BE00B0AF0C /* UI + Color Extensions.swift in Sources */,
+				51891F8B2481559B00B0AF0C /* CAExtensions.swift in Sources */,
 				51891F76248119F300B0AF0C /* AppDelegate.swift in Sources */,
 				51891F78248119F300B0AF0C /* SceneDelegate.swift in Sources */,
 			);
