@@ -54,27 +54,15 @@
                                     <action selector="stopwatchControlPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ybS-01-eiO"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zG7-eS-bxs">
-                                <rect key="frame" x="183.5" y="795" width="47" height="33"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <state key="normal" title="Pause">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
-                                <connections>
-                                    <action selector="stopwatchPaused:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UiV-Tp-2tk"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Bpe-qN-GDf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="52Z-Yg-f7c"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Bpe-qN-GDf" secondAttribute="bottom" constant="82" id="KY4-hx-44u"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="zG7-eS-bxs" secondAttribute="bottom" constant="34" id="LOR-Gu-dZZ"/>
                             <constraint firstItem="YMl-Se-pBP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iRA-IE-Hgh"/>
                             <constraint firstItem="YMl-Se-pBP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="sj5-T7-dBD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YMl-Se-pBP" secondAttribute="trailing" constant="24" id="u1o-Mr-gLb"/>
                             <constraint firstItem="YMl-Se-pBP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="uEe-i5-fBb"/>
-                            <constraint firstItem="zG7-eS-bxs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ycO-b8-fEh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -83,7 +71,6 @@
                         <outlet property="stopwatchControlButton" destination="Bpe-qN-GDf" id="tJs-Jn-OED"/>
                         <outlet property="stopwatchSecondsLabel" destination="nh3-1r-GUL" id="0Fu-Tq-Mbg"/>
                         <outlet property="stopwatchTimeLabel" destination="Da2-u1-RmJ" id="FVP-N9-6xK"/>
-                        <outlet property="stopwatchpauseButton" destination="zG7-eS-bxs" id="7Fx-eD-pSp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
